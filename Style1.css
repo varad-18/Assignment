@@ -1,0 +1,132 @@
+/* Reset some default styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f4f4f4;
+  /* Add a background color of your choice */
+}
+
+
+/* Improve header styling */
+header {
+  background-color: #efc7c7;
+  padding: 20px;
+  /* Increase padding for better spacing */
+}
+
+/* Simplify link styling */
+a {
+  text-decoration: none;
+  color: #333;
+  /* Add default color for links */
+}
+
+/* Improve logo alignment and spacing */
+.flexlogo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* Center items vertically */
+}
+
+.linknav {
+  padding-right: 20px;
+  /* Reduce padding for better spacing */
+}
+
+/* Improve image styling */
+.imglogo {
+  max-height: 100%;
+  /* Use max-height for responsive images */
+  max-width: 100%;
+  /* Use max-width for responsive images */
+}
+
+/* Improve container styling */
+.container {
+  position: relative;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  /* Allow container to wrap its children */
+  justify-content: center;
+  /* Center items horizontally */
+}
+
+.container>div {
+  flex: 1;
+  /* Distribute available space equally among child divs */
+  margin: 10px;
+  padding: 20px;
+  font-size: 1.2em;
+  /* Adjust font size */
+}
+
+/* Improve list styling */
+ul {
+  list-style-type: none;
+  padding: 0;
+  /* Remove default padding */
+}
+
+/* Improve article styling */
+.Harticle {
+  background-color: cadetblue;
+  margin: 5% 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  /* Center content horizontally */
+}
+
+.article {
+  font-size: 1.2em;
+  /* Adjust font size */
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* Improve footer styling */
+.footer {
+  background: #efc7c7;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: space-around;
+  /* Space items evenly */
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Improve social icon and menu styling */
+.social-icon,
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.social-icon__link,
+.menu__link {
+  margin: 0 15px;
+  /* Increase spacing between links */
+  text-decoration: none;
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+.social-icon__link:hover,
+.menu__link:hover {
+  transform: translateY(-10px);
+  opacity: 1;
+}
+
+/* Improve footer paragraph styling */
+.footer p {
+  color: #fff;
+  margin: 10px 0;
+  font-size: 1rem;
+  font-weight: 300;
+}
